@@ -1,0 +1,1 @@
+const __external=globalThis.$scramjetController,{Controller,Frame,ManagedPlugin,VERSION,assertRuntimeScramjetVersion,config}=__external;export{Controller,Frame,ManagedPlugin,VERSION,assertRuntimeScramjetVersion,config};

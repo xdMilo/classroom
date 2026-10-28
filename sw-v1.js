@@ -1,0 +1,1 @@
+importScripts("/gh/xdMilo/classroom@main/marcs-v1/scramjet.all.js");const{ScramjetServiceWorker:t}=$scramjetLoadWorker(),e=new t;self.addEventListener("fetch",r=>{r.respondWith((async()=>(await e.loadConfig(),e.route(r)?e.fetch(r):fetch(r.request)))())});

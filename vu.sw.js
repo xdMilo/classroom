@@ -1,0 +1,1 @@
+importScripts("/gh/xdMilo/classroom@main/vu/uv.bundle.js"),importScripts("/gh/xdMilo/classroom@main/vu.config.js"),importScripts(__uv$config.sw||"/gh/xdMilo/classroom@main/vu/uv.sw.js");const r=new UVServiceWorker;self.addEventListener("fetch",i=>{i.respondWith((async()=>r.route(i)?await r.fetch(i):await fetch(i.request))())});
